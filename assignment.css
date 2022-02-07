@@ -18,6 +18,7 @@ body{
     margin: 0 22px;
     display: flex;
     justify-content: space-between;
+    height:50px;
 }
 #img1{
     width: 70%;
@@ -42,4 +43,7 @@ input{
 .line{
     border: 2px solid black;
     margin-top: 200px;
+}
+.anchor{
+    height: 20px;
 }
