@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.headcontainer{
+    background-color: black;
+    height: 50px;
+}
+.header{
+    margin: 0 100px;
+    display: flex;
+    
+}
+#a1{
+    font-size: 30px;
+    padding-top: 6px;
+    padding-left: 0px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-top: 11px;
+}
+.content{
+    margin: 40px 100px 0 100px;
+    /* border: 1px solid red; */
+}
+.chead{
+    padding-bottom:4px;
+    border-bottom: 1px solid lightgray;
+}
+#span1{
+    font-size: 35px;
+}
+span{
+    font-size: 20px;
+}
+.cbody{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.card{
+    /* border: 1px solid yellow;
+    height: 700px; */
+    width: 100%;
+}
+.box{
+    background-color: #b1aeae;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#201e1e;
+    height: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+#p1{
+    color: #20699d;
+    font-size: 25px;
+}
+.footer{
+    margin: 35px 100px;
+}
+/* #h3{
+    font-size:90%;
+} */
